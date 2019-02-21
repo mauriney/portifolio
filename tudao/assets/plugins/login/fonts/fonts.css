@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'sged';
+  src:  url('sged.eot?m25nhl');
+  src:  url('sged.eot?m25nhl#iefix') format('embedded-opentype'),
+    url('sged.ttf?m25nhl') format('truetype'),
+    url('sged.woff?m25nhl') format('woff'),
+    url('sged.svg?m25nhl#sged') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sged' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sged-user:before {
+  content: "\e904";
+}
+.sged-logout:before {
+  content: "\e905";
+}
+.sged-folder:before {
+  content: "\e900";
+}
+.sged-folder-open:before {
+  content: "\e901";
+}
+.sged-close:before {
+  content: "\e902";
+}
+.sged-menu:before {
+  content: "\e903";
+}

@@ -1,0 +1,30 @@
+.black .logo-cinpro{
+	background: url('../../img/logo-black.svg') no-repeat center center;
+	background-size: contain;
+	height: 80px;
+}
+.black nav.navbar{
+	background-color: var(--bg-black);
+	color: var(--font-white);
+}
+.black .menu-btn i{
+	color: var(--font-white);
+}
+.black .navbar .contact a{
+	color: var(--font-white);
+}
+
+.black footer{
+	background-color: var(--bg-black);
+	color: var(--font-white);
+}
+.black footer .social li a{
+	color: var(--font-white);
+	font-size: 24px;
+}
+.black footer .social li{
+	padding: 0 5px;
+}
+.black footer .social li a:hover{
+	text-decoration: none;
+}

@@ -1,0 +1,12 @@
+span.title{
+	position: relative;
+	display: block;
+	top: 80px;
+	min-height: 40px;
+	line-height: 40px;
+	background-color: var(--bg-green-moss);
+	font-size: 18px;
+	text-align: center;
+	color: var(--font-white);
+	font-weight: normal;
+}

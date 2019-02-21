@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'cinpro';
+  src:  url('cinpro.eot?z9kds3');
+  src:  url('cinpro.eot?z9kds3#iefix') format('embedded-opentype'),
+    url('cinpro.ttf?z9kds3') format('truetype'),
+    url('cinpro.woff?z9kds3') format('woff'),
+    url('cinpro.svg?z9kds3#cinpro') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'cinpro' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ci-skype:before {
+  content: "\e900";
+}
+.ci-instagram:before {
+  content: "\e901";
+}
+.ci-twitter:before {
+  content: "\e902";
+}
+.ci-facebook:before {
+  content: "\e903";
+}
+.ci-whatsapp:before {
+  content: "\e904";
+}
+.ci-phone:before {
+  content: "\e905";
+}
+.ci-menu:before {
+  content: "\e906";
+}

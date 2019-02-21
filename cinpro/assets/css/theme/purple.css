@@ -1,0 +1,63 @@
+.purple .logo-cinpro{
+	background: url('../../img/logo-purple.svg') no-repeat center center;
+	background-size: contain;
+	height: 80px;
+}
+.purple nav.navbar{
+	background-color: var(--bg-purple);
+	color: var(--font-white);
+}
+.purple .menu-btn i{
+	color: var(--font-white);
+}
+.purple .navbar .contact a{
+	color: var(--font-white);
+}
+.purple .menu-tabs {
+	background-color: var(--bg-purple-light);
+	text-align: center;
+}
+.purple .menu-tabs a {
+	display: inline-block;
+	width: 200px;
+	padding: 10px 0;
+	color: var(--font-white);
+	font-weight: 500;
+}
+.purple .menu-tabs a:hover,
+.purple .menu-tabs a:focus,
+.purple .menu-tabs a:active,
+.purple .menu-tabs a.active {
+	text-decoration: none;
+	background-color: var(--bg-purple);
+}
+
+.purple footer{
+	background-color: var(--bg-purple);
+	color: var(--font-white);
+}
+.purple footer .social li a{
+	color: var(--font-white);
+	font-size: 24px;
+}
+.purple footer .social li{
+	padding: 0 5px;
+}
+.purple footer .social li a:hover{
+	text-decoration: none;
+}
+@media (max-width: 992px) {
+	.purple .menu-tabs {
+		overflow: hidden;
+	}
+	.purple .menu-tabs a {
+		display: block;
+		float: left;
+		width: 25%;
+	}
+}
+@media (max-width: 667px) {
+	.purple .menu-tabs a {
+		width: 100%;
+	}
+}

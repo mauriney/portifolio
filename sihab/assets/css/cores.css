@@ -1,0 +1,408 @@
+.bg-azul-escuro {
+  background-color: rgba(0,75,139, 1);
+  color: rgb(255, 255, 255) !important;
+}
+.bg-azul-escuro-20 {
+  background-color: rgba(0,75,139, 0.2);
+}
+.bg-azul-escuro-50 {
+  background-color: rgba(0,75,139, 0.5);
+}
+.bg-azul-escuro-80 {
+  background-color: rgba(0,75,139, 0.8);
+}
+.bg-azul-medio {
+  background-color: rgba(58,119,230, 1);
+}
+.bg-azul-medio-20 {
+  background-color: rgba(58,119,230, 0.2);
+}
+.bg-azul-medio-50 {
+  background-color: rgba(58,119,230, 0.5);
+}
+.bg-azul-medio-80 {
+  background-color: rgba(58,119,230, 0.8);
+}
+.bg-azul-claro {
+  background-color: rgba(2,168,243,1);
+}
+.bg-azul-claro-20{
+  background-color: rgba(2,168,243,0.2);
+}
+.bg-azul-claro-50{
+  background-color: rgba(2,168,243,0.5);
+}
+.bg-azul-claro-80{
+  background-color: rgba(2,168,243,0.8);
+}
+
+.bg-azul-verde {
+  background-color: rgba(7, 172, 174,1);
+  color: rgb(0,0,0);
+}
+
+.bg-azul-verde-20 {
+  background-color: rgba(7, 172, 174,0.2);
+  color: rgb(0,0,0);
+}
+
+.bg-azul-verde-50 {
+  background-color: rgba(7, 172, 174,0.5);
+  color: rgb(0,0,0);
+}
+
+.bg-azul-verde-80 {
+  background-color: rgba(7, 172, 174,0.8);
+  color: rgb(0,0,0);
+}
+
+.bg-azul-verde-medio  {
+  background-color: rgba(7,172,174, 1);
+}
+
+.bg-amerelo-escuro-80{
+  background-color: rgba(255,204,63,0.8);
+}
+.bg-cinza-azul{
+  background-color: rgba(189,204,212,1);
+}
+.bg-cinza-azul-20{
+  background-color: rgba(189,204,212,0.2);
+}
+.bg-cinza-azul-50{
+  background-color: rgba(189,204,212,0.5);
+}
+.bg-cinza-azul-80{
+  background-color: rgba(189,204,212,0.8)
+}
+.bg-lilas-medio{
+  background-color: rgba(146,39,142, 1) !important;
+}
+.bg-lilas-medio-20{
+  background-color: rgba(146,39,142, 0.2);
+}
+.bg-lilas-medio-50{
+  background-color: rgba(146,39,142,0.5);
+}
+.bg-lilas-medio-80{
+  background-color: rgba(146,39,142,0.8) !important;
+}
+.bg-lilas-escuro{
+  background-color: rgba(96,13,96,1);
+}
+.bg-lilas-escuro-20{
+  background-color: rgba(96,13,96,0.2);
+}
+.bg-lilas-escuro-50{
+  background-color: rgba(96,13,96,0.5);
+}
+.bg-lilas-escuro-80{
+  background-color: rgba(96,13,96,0.8);
+}
+.bg-branco {
+  background-color: rgba (255, 255, 255, 1);
+}
+.bg-branco-20 {
+  background-color: rgba (255, 255, 255, 0.2);
+}
+.bg-branco-30 {
+  background-color: rgba (255, 255, 255, 0.3) !important;
+}
+.bg-branco {
+  background-color: rgba (255, 255, 255, 1);
+}
+.bg-vermelho-claro{
+  background-color: rgba(252,85,91,1);
+  color: rgb(255, 255, 255) !important;
+}
+.bg-vermelho-claro-20{
+  background-color: rgba(252,85,91,0.2);
+}
+.bg-vermelho-claro-50{
+  background-color: rgba(252,85,91,0.5);
+}
+.bg-vermelho-claro-80{
+  background-color: rgba(252,85,91,0.8);
+}
+
+.bg-vermelho-escuro{
+  background-color: rgba(206,54,73,1);
+}
+.bg-vermelho-escuro-20{
+  background-color: rgba(206,54,73,0.2);
+}
+.bg-vermelho-escuro-50{
+  background-color: rgba(206,54,73,0.5);
+}
+.bg-vermelho-escuro-80{
+  background-color: rgba(206,54,73,0.8);
+}
+
+.bg-verde-claro{
+  background-color: rgba(13,204,192,1);
+  color: rgb(255, 255, 255) !important;
+}
+.bg-verde-claro-20{
+  background-color: rgba(13,204,192,0.2);
+}
+.bg-verde-claro-50{
+  background-color: rgba(13,204,192,0.5);
+}
+.bg-verde-claro-80{
+  background-color: rgba(13,204,192,0.8);    
+}
+
+.bg-verde{
+  background-color: rgba(0,146,69,1);
+}
+.bg-verde-20{
+  background-color: rgba(0,146,69,0.2);
+}
+.bg-verde-50{
+  background-color: rgba(0,146,69,0.5);
+}
+.bg-verde-80{
+  background-color: rgba(0,146,69,0.8);
+}
+
+.bg-verde-escuro{
+  background-color: rgba(15,76,42,1);
+}
+.bg-verde-escuro-20{
+  background-color: rgba(15,76,42,0.2);
+}
+.bg-verde-escuro-50{
+  background-color: rgba(15,76,42,0.5);
+}
+.bg-verde-escuro-80{
+  background-color: rgba(17,109,46,1);
+}
+
+.bg-cinza{
+  background-color: rgb(0,0,0);
+  color: rgb(255,255,255);
+}
+.bg-cinza-20{ 
+  background-color: rgb(51,51,51);
+}
+.bg-cinza-50{ 
+  background-color: rgb(102,102,102);
+  color: rgb(255,255,255);
+}
+.bg-cinza-80{ 
+  background-color: rgb(179,179,179);
+  color: rgb(255,255,255);
+}
+.bg-cinza-100{
+  background-color: rgb(230,230,230);
+  color: rgb(255,255,255);
+}
+
+.bg-laranja-escuro{
+  background-color: rgba(255, 69, 0,1);
+  color: rgb(255,255,255);
+}
+
+.bg-laranja-escuro-20{
+  background-color: rgba(255, 69, 0,0.2);
+  color: rgb(255,255,255);
+}
+
+.bg-laranja-escuro-50{
+  background-color: rgba(255, 69, 0,0.5);
+  color: rgb(255,255,255);
+}
+
+.bg-laranja-escuro-80{
+  background-color: rgba(255, 69, 0,0.8);
+  color: rgb(255,255,255);
+}
+
+.bg-laranja-claro{
+  background-color: rgba(255, 157, 95,1);
+  color: rgb(255,255,255);
+}
+
+.bg-laranja-claro-20{
+  background-color: rgba(255, 157, 95, 0.2);
+  color: rgb(255,255,255);
+}
+
+.bg-laranja-claro-50{
+  background-color: rgba(255, 157, 95,0.5);
+  color: rgb(255,255,255);
+}
+
+.bg-laranja-claro-80{
+  background-color: rgba(255, 157, 95,0.8);
+  color: rgb(255,255,255);
+}
+
+.bg-amarelo-escuro{
+  background-color: rgba(255, 203, 46,1);
+  color: rgb(0,0,0);
+}
+
+.bg-amarelo-escuro-20{
+  background-color: rgba(254, 203, 46,0.2);
+  color: rgb(0,0,0);
+}
+.bg-amarelo-escuro-50{
+  background-color: rgba(254, 203, 46,0.5);
+  color: rgb(0,0,0);
+}
+
+.bg-amarelo-escuro-80{
+  background-color: rgba(254, 203, 46,0.8);
+  color: rgb(0,0,0);
+}
+
+.bg-amarelo-claro{
+  background-color: rgba(255, 255, 159,1);
+  color: rgb(0,0,0);
+}
+
+.bg-amarelo-claro{
+  background-color: rgba(255, 255, 159,0.2);
+  color: rgb(0,0,0);
+}
+
+.bg-amarelo-claro{
+  background-color: rgba(255, 255, 159,0.5);
+  color: rgb(0,0,0);
+}
+
+.bg-amarelo-claro{
+  background-color: rgba(255, 255, 159,0.8);
+  color: rgb(0,0,0);
+}
+.bg-verde-mar {
+  background-color: rgba(13, 204, 192, 1);
+  color: rgb(255,255,255);
+}
+.bg-verde-mar-20 {
+  background-color: rgba(13, 204, 192, 0.2);
+  color: rgb(255,255,255);
+}
+.bg-verde-mar-50 {
+  background-color: rgba(13, 204, 192, 0.5);
+  color: rgb(255,255,255);
+}
+.bg-verde-mar-80 {
+  background-color: rgba(13, 204, 192, 0.8);
+  color: rgb(255,255,255);
+}
+
+.bg-amarelo-claro{
+  background-color: rgba(255, 255, 159,0.5);
+  color: rgb(0,0,0);
+}
+
+
+.bg-cinza-mig {
+  background-color: rgba(99, 99, 99, 1);
+  color: rgb(255,255,255);
+}
+.bg-cinza-mig-20 {
+  background-color: rgba(99, 99, 99, 0.2);
+  color: rgb(255,255,255);
+}
+.bg-cinza-mig-50 {
+  background-color: rgba(99, 99, 99, 0.5);
+  color: rgb(255,255,255);
+}
+.bg-cinza-mig-80 {
+  background-color: rgba(99, 99, 99, 0.8);
+  color: rgb(255,255,255);
+}
+
+
+
+.bg-tomato {
+  background-color: rgba(255, 99, 71, 1);
+  color: rgb(255,255,255);
+}
+.bg-tomato-20 {
+  background-color: rgba(255, 99, 71, 0.2);
+  color: rgb(255,255,255);
+}
+.bg-tomato-50 {
+  background-color: rgba(255, 99, 71, 0.5);
+  color: rgb(255,255,255);
+}
+.bg-tomato-80 {
+  background-color: rgba(255, 99, 71, 0.8);
+  color: rgb(255,255,255);
+}
+
+.bg-azul-orcamento{
+  background-color: rgba(2, 136, 209, 1);
+  color: rgb(255,255,255);
+}
+
+/* SITUAÇÃO*/ 
+
+.atrasada{
+  background-color: rgb(237, 28, 35);
+  color: rgb(255,255,255);
+  animation-name: atrasada;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.st-atrasado{ 
+  display: block;
+  width: 140px;
+  left: 50%; 
+  margin-left: -70px; 
+  border-radius: 20px; 
+  text-transform: uppercase; 
+  text-align: center; 
+  position: relative; 
+  padding: 3px 0; 
+}
+
+.sem_evolucao{
+  background-color: rgb(121,124,128);
+  color:rgb(255,255,255);
+}
+
+.no_prazo{
+  background-color: rgb(0, 200, 69);
+  color:rgb(255,255,255);
+}
+.pendencia{
+  background-color: rgb(254, 215, 50);
+  color:rgb(0, 0, 0);
+}
+.concluida{
+  background-color: rgb(5,209,255);
+  color:rgb(255,255,255);
+}
+.paralisada{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255,255,255);
+}
+.cancelada{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255,255,255);
+}
+.negativa{
+  color:rgb(250, 0, 0)!important;
+}
+.positiva{
+  color:rgb(51, 168, 106)!important;
+}
+.white { background-color: rgb(255, 255, 255); }
+
+@keyframes atrasada {
+  from{background-color:#c60505;}
+  to{background-color:#ff0000;}
+}
+
+.fonte-branca{
+  color: rgb(255,255,255) !important;
+}
+
+

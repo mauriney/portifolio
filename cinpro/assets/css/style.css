@@ -1,0 +1,123 @@
+/* @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans:300,400,400i,600,700'); */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,700i');
+@import url("pushy.css");
+@import url("full-slider.css");
+@import url('menu.css');
+@import url('tabs.css');
+@import url('default.css');
+@import url('responsive.css');
+@import url('../css/color.css');
+@import url("../fonts/fonts.css");
+@import url('theme/purple.css');
+@import url('theme/black.css');
+
+/****************************************
+	NAVBAR
+*****************************************/
+.navbar{
+	-webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.35);
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.35);
+}
+.navbar .row{
+	width: 100%;
+}
+.navbar .row a.navbar-brand{
+	display: block;
+	position: relative;
+	margin: auto;
+	width: 190px;
+}
+.navbar .row a.navbar-brand img{
+	position: relative;
+	display: block;
+	margin: auto;
+}
+.navbar .contact {
+	display: block;
+	position: relative;
+	float: right;
+	margin-top: 5px;
+}
+.navbar .contact h5 {
+	font-size: 14px;
+	font-weight: 400;
+	font-style: italic;
+}
+.navbar .contact a {
+	display: block;
+	width: 100%;
+	font-size: 12px;
+	margin-top: 5px;
+	font-weight: 400;
+	font-style: italic;
+	text-align: right;
+}
+.navbar .contact a:hover {
+	text-decoration: none;
+}
+.navbar .contact a i {
+	font-size: 16px;
+	position: relative;
+	top: 2px;
+}
+
+/****************************************
+	MENU
+*****************************************/
+.menu-btn{
+	display: block;
+	position: relative;
+	cursor: pointer;
+	font-size: 30px;
+	width: 40px;
+	height: 43px;
+	text-align: center;
+	margin-top: 23px;
+}
+.menu-btn i{
+	color: #001D7E;
+}
+.collapse{
+	background-color: #dbe3ff;
+}
+.collapse ul {
+	margin-top: 0;
+}
+.collapse ul li{
+
+}
+
+
+footer{
+	display: block;
+	position: relative;
+	width: 100%;
+	bottom: 0;
+	padding: 15px 0;
+	color: #2E2282;
+	font-size: 8px;
+	font-weight: 400;
+	background-color:  #fff;
+	-webkit-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.10);
+	-moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.10);
+	box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.10);
+}
+
+footer .social{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+footer .social li{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+}
+footer .social li img{
+	width: 25px;
+}
+footer p{
+	font-size: 1.2em;
+}

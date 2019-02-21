@@ -1,0 +1,30 @@
+.purple .logo-cinpro{
+	background: url('../../img/logo-purple.svg') no-repeat center center;
+	background-size: contain;
+	height: 80px;
+}
+.purple nav.navbar{
+	background-color: var(--bg-purple);
+	color: var(--font-white);
+}
+.purple .menu-btn i{
+	color: var(--font-white);
+}
+.purple .navbar .contact a{
+	color: var(--font-white);
+}
+
+.purple footer{
+	background-color: var(--bg-purple);
+	color: var(--font-white);
+}
+.purple footer .social li a{
+	color: var(--font-white);
+	font-size: 24px;
+}
+.purple footer .social li{
+	padding: 0 5px;
+}
+.purple footer .social li a:hover{
+	text-decoration: none;
+}

@@ -1,0 +1,150 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body{
+  position: relative;
+  display: block;
+  background-color: #EDECEC;
+}
+.logo-governo-top{
+	display: block;
+	overflow: hidden;
+	
+}
+.logo-governo-top img {
+	display: block;
+	float: left;
+}
+.logo-governo-top .title {
+	display: block;
+	float: left;
+}
+.logo {
+  width: 100px;
+  position: relative;
+  display: block;
+}
+.chamamento {
+  display: block;
+  position: relative;
+  text-align: right;
+}
+.chamamento p{
+  color: #000 !important;
+  margin: 5px 0 0 0;
+}
+/* h2{
+  color: #000;
+  text-align: left;
+  margin: 0;
+  font-size: 18px;
+}
+h3 {
+  color: #000;
+  text-align: left;
+  margin: 5px 0 30px;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+}
+h1{
+  text-align: left;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold; 
+}
+h3{
+  text-align: left;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold; 
+} */
+.card-header h2{
+  color: #fff;
+  font-weight: bold;
+}
+.gov, .sec {
+  text-align: left;
+  margin: 0;
+}
+.gov {
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.sec{
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.content {
+  position: relative;
+  display: block;
+  z-index: 100;
+  width: 80%;
+  margin: 0 auto;
+}
+.content p{
+  position: relative;
+  color: #fff;
+  font-size: 16px;
+}
+
+/*.candidato-nome {
+    padding: 0 0 30px;
+}*/
+
+.btn-success {
+  font-size: 24px;
+  margin: 35px auto;
+  position: relative;
+  display: block;
+  width: 180px;
+}
+.logo-governo {
+  background: url(../img/logo-verde-governo.png) no-repeat center center;
+  background-size: 100%;
+  position: fixed;
+  width: 140px;
+  height: 35px;
+  right: 10px;
+  bottom: 10px;
+  display: block;
+  z-index: 40px;
+}
+.logo-sihab {
+  background: url(../img/sihab_color.svg) no-repeat center center;
+  background-size: contain;
+  position: fixed;
+  width: 90px;
+  height: 35px;
+  left: 10px;
+  bottom: 10px;
+  display: block;
+  z-index: 40px;
+}
+.footer {
+  display: block;
+  width: 100%;
+  position: fixed;
+  height: 60px;
+  bottom: 0;
+  left: 0;
+  z-index: 50;
+}
+
+@media (max-width: 1024px) {
+  .home{
+    padding: 0 10px 30px 10px;
+  }
+  .candidate{
+    padding: 20px 5px;
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+	.chamamento p {
+		text-align: center !important;
+	}
+}

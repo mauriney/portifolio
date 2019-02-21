@@ -1,0 +1,14 @@
+.menu-foot {
+    background-color: var(--bg-purple);
+    color: var(--font-white);
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 15px;
+}
+.menu-foot span {
+    display: block;
+    text-align: center;
+    font-size: 11px;
+}

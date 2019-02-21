@@ -1,0 +1,54 @@
+html, body{
+  height: 100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+.form-control-feedback{
+	line-height: 34px;
+}
+.login-page, .register-page {
+	background: url(../img/bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+	border: solid 1px transparent;
+}
+.transparencia{
+	background-color: rgba(0,0,0,0.6);
+	position: fixed;
+	display: block;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 20;
+}
+.login-box, .register-box{
+	position: relative;
+	z-index: 100;
+	margin: 3% auto;
+}
+.login-logo, .register-logo{
+	margin-bottom: 0;
+}
+.login-logo {
+
+}
+	.logo{
+		background: url(../img/logo.png) no-repeat center center;
+		background-size: contain;
+		display: block;
+		width: 150px;
+		height: 150px;
+		position: relative;
+		margin: auto;
+	}
+.social-auth-links p{
+	display: block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #FFA100;
+	color: #fff;
+	border-radius: 50%;
+	font-weight: 500;
+	position: relative;
+	margin: 20px auto;
+}

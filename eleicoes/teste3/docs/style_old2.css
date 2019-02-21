@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700');
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: 'Oswald', sans-serif !important;
+  height: 100%;
+}
+body{
+  background-color: #f1f1f1;
+}
+.title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 30px 0 5px 25px;
+}
+.title i {
+  position: relative;
+  font-size: 28px;
+  top: 2px;
+}
+.title strong{
+  background-color: #f1f1f1;
+  padding: 5px 10px;
+}
+.title img {
+  position: relative;
+  top: -3px;
+  margin-right: 5px;
+}
+.title.form-check{
+  margin-left: 25px;
+}
+.title .form-check-label{
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 15px;
+  color: #3C4858;
+}
+.no-margin{
+  margin: 0;
+}
+#app {
+  background: #ECEFF1;
+  display: block;
+  height: 100%;
+}
+.sidebar {
+  background: #eceff1;
+  width: 100%;
+  display: block;
+  overflow: auto;
+}
+.sidebar h2 {
+  font-weight: normal;
+  font-size: 1.0rem;
+  background: #607d8b;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.sidebar li {
+  line-height: 175%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-wrap: none;
+  text-overflow: ellipsis;
+}
+.cameras ul {
+  padding: 15px 20px;
+  text-align: center;
+}
+.cameras ul li{
+  display: inline-block;
+  height: 60px;
+}
+.cameras ul li span{
+  display: block;
+  height: 60px;
+  cursor: pointer;
+  position: relative;
+  padding: 35px 5px 0;
+}
+.cameras ul li span:after{
+  font-family: FontAwesome;
+  content: "\f030";
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin-left: -16px;
+}
+.cameras .active {
+  font-weight: bold;
+  color: #009900;
+}
+.cameras a {
+  color: #555;
+  text-decoration: none;
+  cursor: pointer;
+}
+.cameras a:hover {
+  text-decoration: underline;
+}
+.scans li {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+.scans-enter-active {
+  transition: background 3s;
+}
+.scans-enter {
+  background: yellow;
+}
+.empty {
+  font-style: italic;
+}
+.preview-container {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.preview-container video {
+  width: 98%;
+  height: 100%;
+  margin: 1% 1% 0.5% 1%;
+}
+
+.field > div{
+  display: block;
+  float: left;
+}
+.field div.number label {
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+  padding: 10px;
+  background-color: red;
+  color: #fff;
+  margin-right: 5px;
+}
+.field div.field-info{
+  width: 70%;
+}
+.field div.field-info input{
+  font-size: 30px;
+}
+
+.county{
+  display: block;
+  position: relative;
+  text-align: center;
+  font-size: 28px;
+  font-family: Oswald, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  background-color: #008f3d;
+  padding: 7px;
+}
+/*****************************
+  BAIRROS
+*******************************/
+.table thead tr th.candidate span{
+  display: block;
+  width: 85px;
+  font-size: 13px;
+}
+
+/*****************************
+  COMPARAÇÃO
+*******************************/
+.compare{
+
+}
+.compare .marcus{
+  background-color: #f1f1f1;
+  border-radius: 2px;
+  display: block;
+  float: left;
+  width: 270px;
+  position: relative;
+  margin: 0;
+  padding: 10px;
+}
+.compare .marcus img{
+  width: 100%;
+}
+.compare .marcus .name{
+  display: block;
+  position: absolute;
+  background-color: #A0E609;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  color: #000;
+  padding: 5px;
+  width: calc(100% - 20px);
+  bottom: 10px;
+  right: 10px;
+}
+.compare .marcus .name strong{
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 60px;
+  line-height: 45px;
+  padding: 5px 10px 5px 0;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: -5px;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+  background-color: rgba(160, 230, 9, 0.7);
+  border-radius: 2px;
+}
+.compare .versus {
+  display: block;
+  float: left;
+  height: 100%;
+  font-size: 40px;
+  color: #929292;
+  padding: 0 20px;
+}
+.compare .versus i {
+  position: relative;
+  top: 45%;
+}
+.compare .others{
+  display: block;
+  float: left;
+  padding: 40px 30px 50px 0px;
+  margin: 30px 0;
+  background-color: #f1f1f1;
+}
+.compare .others strong{
+  padding: 0 3px;
+  border-radius: 2px;
+  background-color: #929292;
+  color: #000;
+}
+/* .compare .others .form-check div{
+  display: inline-block;
+  padding: 5px 3px;
+  border-radius: 2px;
+  background-color: #929292;
+  color: #000;
+} */
+/*****************************
+  CANDIDATO
+*******************************/
+.candidates {
+  overflow: hidden;
+  margin-bottom: 10px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.05);
+}
+.candidates .image{
+  display: block;
+  float: left;
+  width: 60px;
+}
+.candidates .image img{
+  width: 100%;
+  border-radius: 2px;
+}
+.candidates .name{
+  display: block;
+  float: left;
+  width: calc(100% - 120px);
+  font-size: 18px;
+  padding: 0 10px;
+  line-height: 60px;
+  position: relative;
+  z-index: 1;
+}
+.candidates .name span{
+  z-index: 10;
+  position: relative;
+  margin-left: 5px;
+}
+.candidates .name .grafic{
+  position: absolute;
+  width: calc(100% - 60px);
+  height: 30px;
+  background-color: #d8d8d8;
+  top: 16px;
+  z-index: 5;
+}
+.candidates .name .grafic b{
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: right;
+  padding-right: 5px;
+}
+.candidates .name .grafic .bar{
+  height: 30px;
+}
+.candidates .name .grafic .bar-thirteen{
+  background-color: #a0e609;
+}
+.candidates .name .grafic .bar-others{
+  background-color: #929292;
+}
+.candidates .name strong{
+  font-weight: bold;
+  position: absolute;
+  display: block;
+  top: 19px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  background-color: #c7c7c7;
+  line-height: 23px;
+  text-align: center;
+  border-radius: 2px;
+}
+.candidates .name strong.treze{
+  background-color: #A0E609;
+  color: #fff;
+}
+.candidates .wishes{
+  display: block;
+  float: right;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-left: solid 1px #c1c1c1;
+}
+/*****************************
+  URNAS
+*******************************/
+.urn{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.urn li{
+  display: inline-block;
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-radius: 2px;
+  margin-bottom: 5px;
+}
+.urn li .check{
+  display: block;
+  float: left;
+  width: 30px;
+}
+.urn li .check .form-check{
+  margin: 6px 4px;
+}
+.urn li .regional{
+  position: relative;
+  display: block;
+  float: left;
+  width: calc(100% - 190px);
+  height: 60px;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 40px;
+}
+.urn li .regional .name{
+  position: relative;
+  display: block;
+  padding-left: 5px;
+  z-index: 10;
+}
+.urn li .regional .grafic{
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  top: 15px;
+  background-color: #D8D8D8;
+  text-align: right;
+}
+.urn li .regional .grafic strong{
+  position: absolute;
+  display: block;
+  height: 30px;
+  line-height: 28px;
+  font-size: 12px;
+  font-weight: 600;
+  right: 0;
+  top: 0;
+  padding: 0 5px;
+  z-index: 11;
+}
+.urn li .regional .grafic .bar{
+  display: block;
+  position: absolute;
+  height: 30px;
+  background-color: #929292;
+}
+.urn li .regional .grafic .bar.bar-thirteen{
+  background-color: #A0E609;
+}
+.urn li .regional .grafic .bar.bar-equal{
+  background-color: #fcde00;
+}
+.urn li .cleared{
+  border-left: solid 1px #dddddd;
+}
+.urn li .ballots,
+.urn li .cleared{
+  display: block;
+  float: right;
+  width: 80px;
+  height: 60px;
+  padding: 5px 0;
+}
+.urn li .ballots h4,
+.urn li .cleared h4{
+  margin: 0;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.urn li .ballots strong,
+.urn li .cleared strong{
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.card .card-body{
+  padding: 0;
+}
+.info-bu{
+  display: block;
+  padding: 20px 10px;
+  margin: 20px 0;
+}
+.info-bu span{
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  margin: 5px 0;
+}
+.info-bu span strong {
+  margin-left: 10px;
+  background-color: #f1f1f1;
+  padding: 2px 5px;
+}
+/******************************
+ TOPO 
+********************************/
+.navbar-brand{
+  font-weight: 500;
+  margin: auto;
+  font-size: 24px !important;
+}
+.navbar-brand img{
+  width: 30px;
+  position: relative;
+  top: -3px;
+}
+/******************************
+ FOOTER 
+********************************/
+.menu_footer a{
+  font-size: 16px;
+  font-weight: 500;
+}
+.menu_footer a i{
+  font-size: 30px;
+  position: relative;
+  top: 3px;
+}
+
+@media (max-width: 991.98px) { 
+  .info-bu span{
+    text-align: left;
+    position: relative;
+    padding: 4px 5px;
+    border-bottom: solid 1px #f1f1f1;
+  }
+  .info-bu span strong {
+    position: absolute;
+    right: 0;
+  }
+}

@@ -1,0 +1,203 @@
+[data-sidebar] {
+	display: none;
+	position: fixed;
+	height: 100%;
+	z-index: 950;
+	top: 0;
+}
+[data-sidebar-overlay] {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	width: 100%;
+	min-height: inherit;
+}
+/* Additional styles */
+
+aside { 
+	background-color: var(--bg-green-moss);	
+	box-shadow: 0 6px 0 0 rgba(0,0,0,0.5); 
+	width: 250px;
+	-webkit-box-shadow: 1px 0 1px 0px rgba(50, 50, 50, 0.3);
+	-moz-box-shadow:    1px 0 1px 0px rgba(50, 50, 50, 0.3);
+	box-shadow:         1px 0 1px 0px rgba(50, 50, 50, 0.3);
+}
+aside .navbar-brand {
+	left: 50%;
+	position: relative;
+	margin-left: -70px !important;
+	width: 140px;
+}
+aside  a { 
+	color:#fff; 
+	text-decoration:none;
+}
+.overlay { 
+	background-color: #ddd;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 500;
+}
+aside .dropdown-menu { display: inherit; }
+aside .menu-mobile {
+	display: block;
+	clear: both;
+	margin: 0;
+	width: 100%;
+}
+
+	aside .menu-mobile a {
+		display: block;
+		width: 100%;
+		font-weight: 500;
+		text-transform: uppercase;
+		clear: both;
+		overflow: hidden;
+		font-family: khandmedium, sans-serif;
+		font-size: 16px;
+/* 		padding: 10px; */
+	}
+
+aside .area-cliente {
+	width: 100%;
+	overflow: hidden;
+	background-color: #fff;
+}
+aside .area-cliente ul.acesso {
+	margin: 0;
+}
+aside .area-cliente ul li.saldo {
+	width: 100%;
+}
+aside .area-cliente ul li.acao {
+	float: right;
+}
+.menu-mobile li {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.menu-mobile span {
+	display: block;
+	float: left;
+	padding: 10px 20px;
+	position: relative;
+	color: rgb(255, 255, 255);
+}
+.menu-lateral-botao-inicio {
+	 width: 100%; 
+	text-align: center;
+	font-family: khandmedium, sans-serif;
+	font-size: 18px;
+	background-color: rgba(7, 172, 174, 1);
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+.menu-lateral-botao-inicio:hover{ 
+	background-color: rgb(6, 219, 219);
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+	
+	}
+	
+	.seta-direita {
+		border-top: 23px solid transparent;
+		border-bottom: 21px solid transparent;
+		border-left: 12px solid #aaa;
+	}
+	.menu-mobile span .seta-direita {
+		position: absolute;
+		right: -12px;
+		top: 0;
+	}
+.menu-mobile span.sigla {
+	width: 50px;
+	padding: 10px;
+	font-family: source_sans_probold, sans-serif;
+}
+	/* 	módulo prj */
+	.menu-mobile span.prj div {
+		border-left: 12px solid #3b78e7;
+	}
+	/* 	módulo aif */
+	.menu-mobile span.aif div {
+		border-left: 12px solid rgb(206, 54, 73);
+	}
+	/* 	modulo cauc */	
+	.menu-mobile span.cauc div {
+		border-left: 12px solid rgb(57, 189, 190);
+	}
+	/* 	modulo cauc */	
+	.menu-mobile span.cauc div {
+		border-left: 12px solid #07acae;
+	}
+	/* 	modulo conv */	
+	.menu-mobile span.conv div {
+		border-left: 12px solid rgb(7, 181, 213);
+	}
+	/* 	modulo cauc */	
+	.menu-mobile span.conv div {
+		border-left: 12px solid rgb(7, 181, 213);
+	}
+	/* 	modulo pdi */
+	.menu-mobile span.pdi {
+		background-color: rgb(46, 163, 102);
+	}
+		.menu-mobile span.pdi div {
+			border-left: 12px solid rgb(46, 163, 102);
+		}
+	/* 	modulo mig */	
+	.menu-mobile span.mig {
+		background-color: rgb(99, 99, 99);
+	}
+		.menu-mobile span.mig div {
+			border-left: 12px solid rgb(99, 99, 99);
+		}
+	/* 	modulo uo */
+	.menu-mobile span.uo div {
+		border-left: 12px solid rgb(51, 51, 51);
+	}
+	/* 	modulo de usuario */
+	.menu-mobile span.gu div {
+		border-left: 12px solid rgb(96, 13, 96);
+	}
+	/* 	modulo de central de controle */
+	.menu-mobile span.cc div {
+		border-left: 12px solid rgb(0, 0, 0);
+	}
+aside .container-logo {
+	padding: 15px 0;
+}
+aside .logo-siplage {
+	background: url(../../img/logo_siplage_white.svg) no-repeat left center;
+	background-size: contain;
+	display: block;
+	width: 150px;
+	height: 50px;
+	text-indent: -999px;
+	overflow: hidden;
+	position: relative;
+	left: 50%;
+	margin-left: -75px;
+	cursor: default;
+}
+aside .logo-governo {
+	background: url(../../img/logo_governo_acre.svg) no-repeat left center;
+	background-size: contain;
+	display: block;
+	width: 180px;
+	height: 40px;
+	position: absolute;
+	left: 50%;
+	margin-left: -90px;
+	bottom: 70px;
+}

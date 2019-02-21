@@ -1,0 +1,926 @@
+.h-logo > a{
+  background: url(../img/sihab_pb.svg) no-repeat center center;
+  background-size: contain;
+  width: 130px;
+  height: 65px;
+  text-indent: -9999px;
+  overflow: hidden;
+  margin-top: -8px;
+}
+
+.print{
+  right: 85px !important;
+}
+
+/* MÓDULOS DA DASHBOARD */
+.container-module{
+  padding: 20px;
+}
+.module{
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.hoverzoom {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+}
+.modulo1{
+  background-color: #00897b;
+}
+.modulo2{
+  background-color: #6a1b9a;
+}
+.modulo3{
+  background-color: #1565c0;
+}
+.modulo4{
+  background-color: #1565c0;
+}
+.modulo5{
+  background-color: #1565c0;
+}
+.modulo6{
+  background-color: #1565c0;
+}
+.modulo7{
+  background-color: #212121;
+}
+.modulo8{
+  background-color: #1565c0;
+}
+.modulo9{
+  background-color: #1565c0;
+}
+.modulo10{
+  background-color: #1565c0;
+}
+.hoverzoom h1 {
+  position: absolute;
+  color: #fff;
+  font-family: Byom, sans-serif;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  padding: 10px;
+  margin: 0;
+}
+.hoverzoom > img {
+  width: 200px;
+  left: 50%;
+  padding: 50px 50px 70px 50px;
+  position: relative;
+  margin-left: -100px;
+  border-radius: 2px;
+  -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+.hoverzoom:hover > img {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.hoverzoom:hover > h1 { display: none; }
+.hoverzoom .retina{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  text-align: center;
+  padding: 30px;
+  -webkit-transition:  all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000); 
+}
+.hoverzoom:hover .retina {
+  opacity: 1;
+  box-shadow: inset 0 0 100px 50px rgba(0,0,0,.5);
+}
+.hoverzoom .retina p {
+  color: #fff;
+}
+.hoverzoom .retina h2 {
+  color: #fff;
+  font-family: Byom, sans-serif;
+  font-size: 22px;
+  margin-top: 60px;
+}
+.hoverzoom .retina a {
+  display: block;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 15px;
+  margin: 16px auto 0;
+}
+.hoverzoom .retina a i {
+  font-size: 30px;
+}
+
+/* MENU FLUTUANTE LISTA */
+.menu-floating{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 30;
+}
+.menu-floating li{
+  font-size: 26px;
+  font-family: Aller, 'Montserrat', Arial, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  width: 35px;
+  height: 46px;
+  display: block;
+  padding: 5px 15px 5px 0;
+  -webkit-transition: width 0.5s ease;
+  -moz-transition: width 0.5s ease;
+  -ms-transition: width 0.5s ease;
+  -o-transition: width 0.5s ease;
+  transition: width 0.5s ease;
+  overflow: hidden;
+}
+.menu-floating li.holder{
+  background-color: #6a1b9a;
+}
+.menu-floating li.holder:hover{
+  width: 150px;
+}
+.menu-floating li.spouse{
+  background-color: #D81B60;
+}
+.menu-floating li.spouse:hover{
+  width: 160px;
+}
+.menu-floating li.family-group{
+  background-color: #EF6C00;
+}
+.menu-floating li.family-group:hover{
+  width: 250px;
+}
+.menu-floating li.note{
+  background-color: #00bcd4;
+}
+.menu-floating li.note:hover{
+  width: 210px;
+}
+.menu-floating li.history{
+  background-color: #fcbd0c;
+}
+.menu-floating li.history:hover{
+  width: 210px;
+}
+.menu-floating li a{
+  padding: 0;
+  display: block;
+  width: 300px;
+  color: #fff;
+}
+.menu-floating li a span{
+  display: none;
+}
+.menu-floating li:hover span{
+  display: inline;
+  -webkit-transition: width 0.5s ease;
+  -moz-transition: width 0.5s ease;
+  -ms-transition: width 0.5s ease;
+  -o-transition: width 0.5s ease;
+  transition: width 0.5s ease;
+}
+
+/* LISTA DE CANDIDADOS */
+
+.old-records{
+  margin: 40px 0 20px 0;
+  background-color: #eeeeee;
+  border-radius: 2px;
+  display: block;
+  overflow: hidden;
+}
+.old-records .name-program span, .old-records .name-subprogram span, .old-records .status span, .old-records .date span{
+  font-family: Aller, 'Montserrat', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  padding: 5px 10px 10px;
+}
+.old-records .name-program small, .old-records .name-subprogram small, .old-records .status small, .old-records .date small{
+  display: block;
+  padding: 10px 10px 0 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.status{
+  background-color: #00b0ff;
+  color: #fff;
+  text-align: center;
+}
+.date{
+  background-color: #e65100;
+  color: #fff;
+  text-align: center;
+}
+
+section.view{
+  margin: 20px 0;
+}
+section.view h1{
+  font-family: Aller, 'Montserrat', Arial, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 9px 0 9px 0;
+  margin: 0 0 20px 0;
+  height: 46px;
+}
+section.view h1.spouse{
+
+}
+section.view .content{
+  width:100%;
+  padding: 10px 42px;
+}
+section.view .content .field{
+  display: block;
+  margin-bottom: 40px;
+}
+section.holder-content{
+  background-color: rgba(106, 27, 154, 0.12);
+  border: solid 1px #6a1b9a;
+}
+section.holder-content h1{
+  background-color: #6a1b9a;
+  color: #fff;
+}
+section.spouse-content{
+  background-color: rgba(216, 27, 96, 0.12);
+  border: solid 1px #D81B60;
+}
+section.spouse-content h1{
+  background-color: #D81B60;
+  color: #fff;
+}
+
+section.family-group-content{
+  background-color: rgba(239, 108, 0, 0.12);
+  border: solid 1px #ef6c00;
+}
+section.family-group-content h1{
+  background-color: #ef6c00;
+  color: #fff;
+}
+
+section.note-content{
+  background-color: rgba(0, 188, 212, 0.12);
+  border: solid 1px #00BCD4;
+  min-height: 400px;
+}
+section.note-content h1{
+  background-color: #00BCD4;
+  color: #fff;
+}
+
+section.history-content{
+  background-color: rgba(252, 189, 12, 0.15);
+  border: solid 1px #fcbd0c;
+  min-height: 400px;
+}
+section.history-content h1{
+  background-color: #fcbd0c;
+  color: #000;
+}
+
+.field small{
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Aller, 'Montserrat', Arial, sans-serif;
+  display: block;
+  text-transform: uppercase;
+}
+.field label{
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Aller, 'Montserrat', Arial, sans-serif;
+  display: block;
+  text-transform: uppercase;
+}
+.field span{
+  font-size: 14px;
+  font-family: Aller, 'Montserrat', Arial, sans-serif;
+  text-transform: uppercase;
+  display: block;
+  padding: 10px;
+  border-radius: 3px;
+  margin-top: 3px;
+  background-color: rgba(255,255,255,0.7);
+  min-height: 40px;
+  overflow: hidden;
+}
+.field span.nome{
+  font-size: 22px;
+  font-weight: bold;
+  height: 50px;
+}
+.field span a{
+  float: right;
+  font-size: 20px;
+  position: relative;
+  top: -4px;
+}
+.field b{
+  display: block;
+  float: left;
+}
+.bl{
+  display: block;
+  float: left !important;
+  margin:0 0 10px 10px;
+  font-family: Aller, sans-serif;
+  font-size: 13px !important;
+  font-weight: 500;
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #fff;
+}
+.bl:hover,
+.bl:focus,
+.bl:active{
+  color: #fff;
+  text-decoration: none;
+}
+.bl-pessoal{
+  background-color: #2196F3;
+  color: #fff !important;
+}
+.bl-pessoal h4{
+  color: #fff !important;
+}
+.bl-endereco{
+  background-color: #9C27B0;
+  color: #fff !important;
+}
+.bl-endereco h4{
+  color: #fff !important;
+}
+.bl-anexo{
+  background-color: #000;
+  color: #fff !important;
+}
+.bl-anexo h4{
+  color: #fff !important;
+}
+.bl-contato{
+  background-color: #ff0000;
+  color: #fff !important;
+}
+.bl-contato h4{
+  color: #fff !important;
+}
+.bl-conjuge{
+  background-color: #ff9800;
+  color: #fff !important;
+}
+.bl-conjuge h4{
+  color: #fff !important;
+}
+.bl-familiar{
+  background-color: #00897b;
+  color: #fff !important;
+}
+.bl-familiar h4{
+  color: #fff !important;
+}
+.field span.nome a.info{
+  margin-top: 6px;
+}
+.field span a.info{ color:  #ff9800; }
+.obs{
+  padding: 10px !important;
+  height: 100px !important;
+}
+.field span.nome a.attachment{
+  margin-top: 6px;
+}
+.field span a.attachment{ color:  #000; }
+.obs{
+  padding: 10px !important;
+  height: 100px !important;
+}
+section.view .content h2{
+  font-family: Aller, 'Montserrat', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: solid 1px #252525;
+  padding: 10px 0;
+}
+section.view fieldset{
+  padding: 20px;
+  border: solid 1px #607d8b;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+section.view fieldset legend{
+  background-color: #607d8b;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-family: Aller, 'Montserrat', Arial, sans-serif;
+  font-weight: bold;
+  border: 0;
+}
+section.view fieldset legend i{
+  font-size: 20px;
+}
+
+
+/* SITE */
+.site{
+  height: 100%;
+  background-color: #fff;
+}
+.site .content{
+  display: block;
+  min-height: 100%;
+  padding: 40px 20px 100px;
+  position: relative;
+}
+.site .content .imagem{
+  display: block;
+  position: relative;
+  margin: auto;
+  width: 120px;
+  height: 120px;
+  background: url("../img/brasao-governo.svg") no-repeat center center;
+  background-size: contain;
+}
+.site .content h1{
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+.site .content h2{
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+  margin: 0;
+}
+.site .content h3{
+  display: block;
+  position: relative;
+  width: 200px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 25px;
+  margin: 30px auto;
+}
+.site .content form{
+  width: 280px;
+  position: relative;
+  margin: 0 auto 20px;
+}
+.site .content form button{
+  font-size: 14px;
+}
+.site .content .item-form{
+  top: 0;
+  margin-bottom: 15px;
+}
+.site footer {
+  background-color: #0DCCC0;
+  display: block;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.2);
+  z-index: 500;
+}
+.site footer .logo-governo {
+  display: block;
+  width: 200px;
+  height: 50px;
+  position: relative;
+  top: 10px;
+  margin: 0 auto;
+  background: url("../img/brasao-governo.svg") no-repeat center center;
+  background-size: contain;
+}
+.site footer p{
+  display: block;
+  font-size: 11px;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  top: 15px;
+  padding: 0 20px;
+}
+@media screen and (max-width: 464px) {
+  .site .content .imagem{
+    width: 70px;
+    height: 70px;
+  }
+  .site .content h1{
+    font-size: 13px;
+  }
+  .site .content h2{
+    font-size: 12px;
+  }
+  .site .content h3{
+    font-size: 13px;
+    line-height: 20px;
+    margin: 15px auto;
+  }
+  .site .content form{
+    width: 80%;
+  }
+  .site footer .logo-governo {
+    width: 130px;
+    height: 25px;
+  }
+  .site footer p{
+    padding: 0 10px;
+    font-size: 10px;
+  }
+}
+
+.applicant-data{
+  background-color: #fff;
+  height: 100%;
+}
+.applicant-data header{
+  position: fixed;
+  top: 0;
+  background-color: #0DCCC0;
+  background-color: #0DCCC0;
+  display: block;
+  width: 100%;
+  min-height: 65px;
+  box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.2);
+  z-index: 500;
+}
+.applicant-data header a{
+  position: absolute;
+}
+.applicant-data header a.print{
+  right: 90px;
+  top: 35px;
+  padding: 12px 10px 0;
+}
+.applicant-data header a.logout{
+  right: 30px;
+  top: 35px;
+  padding: 12px 10px 0;
+}
+.applicant-data header h1{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  width: auto;
+  padding: 20px;
+  margin: 0;
+}
+.applicant-data .content{
+  min-height: 100%;
+  padding: 90px 20px 60px;
+}
+.applicant-data .content .menu-floating li a{
+  padding: 5px 0 5px;
+}
+.applicant-data .content .menu-floating li a:hover{
+  padding: 0 !important;
+}
+.applicant-data .content .card{
+  box-shadow: none;
+}
+.applicant-data .content .card-body .old-records{
+  margin: 0 0 20px;
+}
+.applicant-data .content .field span a.info i{
+  top: 4px;
+  position: relative;
+}
+.applicant-data .content .field span a.attachment i{
+  top: 4px;
+  position: relative;
+}
+
+.applicant-data footer{
+  position: fixed;
+  height: auto;
+  bottom: 0;
+  background-color: #0DCCC0;
+  display: block;
+  width: 100%;
+  box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.applicant-data footer .logo-governo{
+  display: block;
+  width: 120px;
+  height: 30px;
+  margin: 0 auto;
+  position: relative;
+  background: url("../img/brasao-governo.svg") no-repeat center center;
+  background-size: contain;
+}
+.applicant-data footer p{
+  display: block;
+  font-size: 11px;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  padding: 0 20px 5px;
+  margin: 0;
+}
+
+.tab-nav.tab-cadastrando{
+  box-shadow: 0 -2px 0 0 rgb(243, 128, 115) inset;
+}
+.tab-nav.tab-retornados{
+  box-shadow: 0 -2px 0 0 #337ACC inset;
+}
+.tab-nav.tab-aguardando{
+  box-shadow: 0 -2px 0 0 #F57C00 inset;
+}
+.tab-nav.tab-aprovados{
+  box-shadow: 0 -2px 0 0 #8BC34A inset;
+}
+.tab-nav li.active a.cadastrando{
+  color: rgb(243, 128, 115);
+  box-shadow: 0 -2px 0 0 rgb(243, 128, 115) inset;
+}
+.tab-nav li.active a.retornados{
+  color: #337ACC;
+  box-shadow: 0 -2px 0 0 #337ACC inset;
+}
+.tab-nav li.active a.aguardando{
+  color: #F57C00;
+  box-shadow: 0 -2px 0 0 #F57C00 inset;
+}
+.tab-nav li.active a.aprovados{
+  color: #8BC34A;
+  box-shadow: 0 -2px 0 0 #8BC34A inset;
+}
+
+@media screen and (max-width: 767px) {
+  .applicant-data header a.print{
+    right: 60px;
+    top: 50px;
+    padding: 12px 10px 0;
+  }
+  .applicant-data header a{
+    width: 40px;
+    height: 40px;
+    padding: 8px 5px !important;
+  }
+  .applicant-data header a.logout{
+    right: 10px;
+    top: 50px;
+    padding: 12px 10px 0;
+  }
+  .applicant-data header h1{
+    font-size: 16px;
+  }
+  .applicant-data footer p{
+    padding: 0 10px 5px;
+  }
+}
+
+.receipt{
+
+}
+.receipt header{
+  display: block;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.receipt header ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.receipt header ul li{
+  display: block;
+  float: left;
+}
+.receipt header ul li:last-child{
+  padding-left: 10px;
+}
+.receipt header p{
+  font-size: 15px;
+  margin: 2px 0 0 0;
+}
+
+.receipt header .image{
+  display: block;
+  width: 76px;
+  height: 76px;
+}
+
+.receipt .text{
+
+}
+.receipt .text h1{
+  font-size: 20px;
+  margin: 20px 0 30px 0;
+}
+.receipt .text p{
+  font-size: 15px;
+}
+.receipt .data-candidate{
+  border: solid 1px #c9c9c9;
+  display: block;
+  width: 70%;
+  padding: 10px 20px;
+  position: relative;
+  margin: 30px auto 30px auto;
+}
+.receipt .data-candidate h2{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.receipt .data-candidate h3{
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+.receipt .data-candidate h4{
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+}
+.receipt .data-candidate .password{
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+  display: block;
+  width: 150px;
+  padding: 5px 10px;
+  background-color: #f1f1f1;
+  position: relative;
+  margin: 10px auto;
+}
+.receipt .data-candidate h5{
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  position: relative;
+  margin: 30px 0 0 0;
+}
+.receipt .data-candidate p{
+  text-align: center;
+  position: relative;
+  margin-top: 10px;
+}
+.receipt .date-today{
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  margin: 30px 0;
+}
+
+.receipt .holder{
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  margin: 100px 0 0 0;
+}
+.receipt .holder span{
+  font-size: 16px;
+  border-bottom: solid 1px #c7c7c7;
+  padding: 5px 10px;
+  width: 400px;
+  display: block;
+  margin: auto;
+  position: relative;
+}
+.receipt .holder small{
+  font-size: 15px;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  color: #000;
+  font-weight: bold;
+}
+.receipt footer{
+  position: relative;
+  margin: 100px 0 0 0;
+}
+.receipt footer p{
+  margin: 0;
+}
+.receipt footer img{
+  width: 100%;
+  margin-top: 10px;
+}
+.notification{
+  border: solid 1px red;
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  background-color: #ff0000;
+  border-radius: 50%;
+  font-size: 10px;
+  font-family: Aller, 'Montserrat', Arial, sans-serif;
+  font-weight: bold;
+  padding-top: 2px;
+  right: 5px;
+}
+.validade{
+  display: block;
+  width: 80%;
+  margin: auto;
+  padding: 5px 10px;
+  font-family: Aller, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+}
+.validade small{
+  display: block;
+  width: 100%;
+}
+.validade span{
+  font-weight: bold;
+  font-size: 20px;
+}
+.st-valido{
+  background-color: #8BC34A;
+}
+.st-vencendo{
+  background-color: #FCBD0C;
+  color: #000 !important;
+}
+.st-vencido{
+  background-color: #FF0000;
+}
+.st-nulo{
+  background-color: #000;
+}
+
+.row-element{
+  border: solid 1px #e2e2e2;
+  padding: 15px;
+  background-color: #f4f4f4;
+  position: relative;
+  border-radius: 3px;
+}
+.row-element:first-child{
+
+  margin-top: 20px; 
+}
+.row-element .fileinput{
+  margin: 10px 0 0 0;
+}
+.row-element .fileinput .close{
+  border: 0;
+  font-size: 20px;
+}
+.row-element .form-group {
+  margin: 15px 0 0 0;
+}
+.row-element .new-button a{
+  position: relative;
+}
+.row-element .new-button a i{
+  font-size: 30px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.row-element .clone-obs {
+  
+}
+.row-element .clone-obs .form-control {
+  background-color: transparent;
+}
+
+
+
+

@@ -1,0 +1,173 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body{
+  position: relative;
+  display: block;
+  background: url(/sihab/assets/img/sorteio/img1.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.logo {
+  width: 100px;
+  position: relative;
+  display: block;
+  margin: 25px auto 0;
+}
+h2{
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 18px;
+}
+h3 {
+  color: #fff;
+  text-align: center;
+  margin: 5px 0 30px;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+}
+.img-fundo{
+  width: 130%;
+  height: 100%;
+  position: relative;
+  display: block;
+  z-index: 10;
+}
+.transparencia {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  z-index: 20;
+  top: 0;
+  left: 0;
+}
+.blur {
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+}
+h1{
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold; 
+}
+h3{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold; 
+}
+.content {
+  position: relative;
+  display: block;
+  z-index: 100;
+  width: 80%;
+  margin: 0 auto;
+}
+.content p{
+  position: relative;
+  color: #fff;
+  font-size: 16px;
+}
+
+/*.candidato-nome {
+    padding: 0 0 30px;
+}*/
+
+.btn-success {
+  font-size: 24px;
+  margin: 35px auto;
+  position: relative;
+  display: block;
+  width: 180px;
+}
+.logo-governo {
+  background: url(../img/brasao-governo.svg) no-repeat center center;
+  background-size: 100%;
+  position: fixed;
+  width: 160px;
+  height: 40px;
+  right: 10px;
+  bottom: 20px;
+  display: block;
+  z-index: 40px;
+}
+.logo-sihab {
+  background: url(../img/sihab_pb.svg) no-repeat center center;
+  background-size: 100%;
+  position: fixed;
+  width: 90px;
+  height: 40px;
+  left: 10px;
+  bottom: 20px;
+  display: block;
+  z-index: 40px;
+}
+ol {
+  margin-bottom: 15px;
+  margin-left: 20px;
+  list-style: lower-alpha;
+}
+ol li {
+  color: #fff;
+  font-size: 16px;
+  padding: 5px 0;
+}
+span.m-l-20{
+  display: block;
+}
+
+p.assinatura{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+a.butao{
+  display: block;
+  width: 350px;
+  bottom: 10px
+}
+.edital {
+  display: block;
+  margin: 20px 0;
+  color: #20e7e4;
+}
+
+.footer {
+  background-color: rgba(0,0,0,0.9);
+  display: block;
+  width: 100%;
+  position: fixed;
+  height: 90px;
+  bottom: 0;
+  left: 0;
+  z-index: 50;
+}
+
+@media (max-width: 1024px) {
+  .home{
+    padding: 0 10px 30px 10px;
+  }
+  .candidate{
+    padding: 20px 5px;
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 674px) {
+  .footer {
+    height: 140px; 
+  }
+  a.butao{
+    font-size: 14px;
+    width: 250px;
+  }
+}

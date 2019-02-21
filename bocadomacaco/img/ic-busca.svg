@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-18 232.3 329 329" style="enable-background:new -18 232.3 329 329;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<symbol  id="New_Symbol_3" viewBox="-51.2 -50.8 102 102">
+	<g>
+		<g>
+			<path class="st0" d="M-18.3,46.2c15.4,0,27.9-12.5,27.9-27.9S-2.9-9.6-18.3-9.6S-46.2,2.9-46.2,18.3S-33.7,46.2-18.3,46.2
+				 M-18.3,51.2c-18.2,0-32.9-14.7-32.9-32.9c0-18.2,14.7-32.9,32.9-32.9S14.6,0.1,14.6,18.3C14.6,36.5-0.1,51.2-18.3,51.2
+				L-18.3,51.2z"/>
+		</g>
+		<line class="st1" x1="4.7" y1="-4.7" x2="14.6" y2="-14.6"/>
+		<g>
+			<path class="st0" d="M19.5-16.7l24.2-24.2l-2.8-2.8L16.7-19.5L19.5-16.7 M19.5-9.7l-9.9-9.9l31.3-31.3l9.9,9.9L19.5-9.7L19.5-9.7
+				z"/>
+		</g>
+	</g>
+</symbol>
+<use xlink:href="#New_Symbol_3"  width="102" height="102" id="XMLID_4_" x="-51.2" y="-50.8" transform="matrix(2.9804 0 0 -2.9804 146.7685 397.9165)" style="overflow:visible;"/>
+</svg>

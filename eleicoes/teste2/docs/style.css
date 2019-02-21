@@ -1,0 +1,97 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: 'Helvetica Neue', 'Calibri', Arial, sans-serif;
+  height: 100%;
+}
+#app {
+  background: #ECEFF1;
+  display: block;
+  height: 100%;
+}
+.sidebar {
+  background: #eceff1;
+  width: 100%;
+  display: block;
+  overflow: auto;
+}
+.sidebar h2 {
+  font-weight: normal;
+  font-size: 1.0rem;
+  background: #607d8b;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.sidebar li {
+  line-height: 175%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-wrap: none;
+  text-overflow: ellipsis;
+}
+.cameras ul {
+  padding: 15px 20px;
+  text-align: center;
+}
+.cameras ul li{
+  display: inline-block;
+  height: 60px;
+}
+.cameras ul li span{
+  display: block;
+  height: 60px;
+  cursor: pointer;
+  position: relative;
+  padding: 35px 5px 0;
+}
+.cameras ul li span:after{
+  font-family: FontAwesome;
+  content: "\f030";
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin-left: -16px;
+}
+.cameras .active {
+  font-weight: bold;
+  color: #009900;
+}
+.cameras a {
+  color: #555;
+  text-decoration: none;
+  cursor: pointer;
+}
+.cameras a:hover {
+  text-decoration: underline;
+}
+.scans li {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+.scans-enter-active {
+  transition: background 3s;
+}
+.scans-enter {
+  background: yellow;
+}
+.empty {
+  font-style: italic;
+}
+.preview-container {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.preview-container video {
+  width: 98%;
+  height: 100%;
+  margin: 1% 1% 0.5% 1%;
+}

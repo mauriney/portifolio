@@ -1,0 +1,8 @@
+:root {
+	/* FONTS */
+	--font-white: #FFFFFF;  /* Cor da fonte branca */
+	--font-green-moss: #6A8282; /* Cor da fonte verde musgo */
+	/* BACKGROUND */
+	--bg-white: #FFFFFF;  /* Cor da fonte branca */
+	--bg-green-moss: #6A8282; /* Cor do background do titulo principal */
+}

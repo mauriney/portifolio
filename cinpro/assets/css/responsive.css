@@ -1,0 +1,12 @@
+@media (max-width: 667px) {
+	.desktop{
+		display: none !important;
+	}
+	.mobile{
+		display: block !important;
+	}
+	.content .container{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}

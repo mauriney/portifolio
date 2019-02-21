@@ -1,0 +1,21 @@
+:root {
+	/* FONTS */
+	--font-white: #FFFFFF;  /* Cor da fonte branca */
+	--font-black: #000000; /* Cor da fonte Preto */
+	--font-blue: #007AD3; /* Cor da fonte Azul */
+	--font-blue-dark: #001D7E; /* Cor da fonte Azul Escuro */
+	--font-gray-dark: #626262; /* Cor da fonte cinza escuro */
+	--font-green-moss: #6A8282; /* Cor da fonte verde musgo */
+	--font-red-dark: #680305; /* Cor da fonte vermelho escuro */
+	/* BACKGROUND */
+	--bg-white: #FFFFFF;  /* Cor de fundo branca */
+	--bg-black: #000000;  /* Cor de fundo Preto */
+	--bg-green-moss: #6A8282; /* Cor do background do titulo principal */
+	--bg-red-dark: #680305; /*  Cor do background vermelho escuro */
+	--bg-red-dark-90: #470e0f; /*  Cor do background vermelho escuro hover */
+	--bg-blue-light: #00D4E9; /*  Cor do background azul claro */
+	--bg-yellow: #FFE200; /*  Cor do background amarelo status */
+	--bg-green: #12897B; /*  Cor do background verde status */
+	--bg-purple: #2e2282; /*  Cor do background Lilás */
+	--bg-purple-light: #6b60ba; /*  Cor do background Lilás claro */
+}

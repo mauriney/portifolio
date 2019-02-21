@@ -1,0 +1,45 @@
+/**************************
+	FLEX 
+***************************/
+.flex {
+	display: flex;
+}
+.flex-wrap {
+	flex-wrap: wrap;
+}
+/**************************
+	NAVBAR 
+***************************/
+.navbar {
+  border-radius: 0 !important;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important;
+}
+.navbar-bottom{
+	margin: 0 !important;
+}
+.content{
+	margin: 90px 0;
+}
+/**************************
+	CARD 
+***************************/
+.card {
+	border-radius: 2px !important;
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.05) !important;
+	padding: 10px;
+}
+/**************************
+	MENU RODAPÉ 
+***************************/
+.menu_footer {
+	flex-direction: row;
+	width: 100%;
+}
+.menu_footer a{
+	flex: 1;
+	margin: 5px;
+	text-align: center;
+	font-size: 2em;
+	color: var(--font-black);
+	padding: 0;
+}

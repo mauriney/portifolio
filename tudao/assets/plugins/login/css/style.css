@@ -1,0 +1,120 @@
+@import url('default.css');
+@import url('title.css');
+@import url('color.css');
+@import url('menu.css');
+@import url('../fonts/fonts.css');
+
+/* HEADER */
+header{
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	background-color: var(--bg-white);
+	z-index: 10;
+}
+.box-header {
+	position: relative;
+	background-color: var(--font-white);
+	width: 100%;
+	height: 80px;
+	display: block;
+	margin: 0 auto 6px;
+}
+.box-header:before, 
+.box-header:after {
+	z-index: -1;
+	position: absolute;
+	content: "";
+	bottom: 20px;
+	left: 0;
+	width: 50%;
+	top: 25%;
+	max-width: 100%;
+	background: rgba(0, 0, 0, 0.2);
+ 
+	-webkit-box-shadow: 0 25px 10px rgba(0,0,0, 0.2);
+	   -moz-box-shadow: 0 25px 10px rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 25px 10px rgba(0, 0, 0, 0.2);
+ 
+	-webkit-transform: rotate(-1deg);
+	   -moz-transform: rotate(-1deg);
+	     -o-transform: rotate(-1deg);
+}
+.box-header:after {
+	-webkit-transform: rotate(1deg);
+	   -moz-transform: rotate(1deg);
+	     -o-transform: rotate(1deg);
+	right: 0;
+	left: auto;
+}
+
+.logo, .menu{
+	display: block;
+	float: left;
+}
+.menu{
+	font-size: 26px;
+	margin: 25px 20px;
+	color: var(--font-green-moss);
+}
+.menu:hover,
+.menu:focus,
+.menu:active{
+	text-decoration: none;
+
+}
+.logo{
+	background: url('../img/mp-logo.svg') no-repeat center center;
+	background-size: contain;
+	display: block;
+	position: relative;
+	width: 160px;
+	height: 40px;
+	margin: 20px auto;
+}
+.logo-sged{
+	background: url('../img/sged-logo.svg') no-repeat center center;
+	background-size: contain;
+	display: block;
+	position: relative;
+	width: 300px;
+	height: 60px;
+	margin: 10px auto;
+}
+header .btn-group {
+	float: right;
+	margin: 15px 20px;
+}
+header .btn-group .dropdown-toggle{
+	cursor: pointer;
+	background-color: transparent;
+}
+header .btn-group .dropdown-toggle:hover,
+header .btn-group .dropdown-toggle:focus,
+header .btn-group .dropdown-toggle:active{
+	outline: none;
+}
+header .btn-group .dropdown-toggle img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: solid 2px var(--bg-green-moss);
+}
+header .dropdown-menu{
+	border-radius: 0;
+	border: 0;
+	-webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+}
+header .dropdown-menu .dropdown-item {
+	cursor: pointer;
+}
+
+
+
+/* CONTEÚDO */
+.content{
+	margin-top: 80px;
+}

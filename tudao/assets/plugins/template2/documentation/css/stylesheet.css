@@ -1,0 +1,28 @@
+img {
+	max-width: 100%;
+}
+
+h3 {
+	background-color: #EEEEEE;
+	padding: 5px 10px;
+	margin-bottom: 15px;
+}
+
+.nav-pills > li {
+	background-color: #EEEEEE;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #333333;
+    background-color: #CCCCCC;
+    white-space: nowrap;
+}
+
+.nav-stacked > li > a {
+	border-radius: 0;
+	color: #333333;
+}
+
+.nav-stacked > li + li {
+    margin-top: 0;
+}
